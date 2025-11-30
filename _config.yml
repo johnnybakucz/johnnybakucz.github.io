@@ -1,0 +1,29 @@
+title: Your Name
+name: Your Name
+description: Personal academic website
+url: ""
+baseurl: ""
+
+author:
+  name: Your Name
+  title: "Ph.D. Candidate"
+  institution: "Your University"
+  department: "Department of Economics"
+  location: "City, State"
+  email: "your.email@university.edu"
+  github: "yourgithub"
+  google_scholar: ""
+  twitter: ""
+  linkedin: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+plugins:
+  - jekyll-seo-tag
